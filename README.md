@@ -1,5 +1,23 @@
 # NgFood
 
+##Fala Turma! 
+Leiam atentamente as informações deste card pois ele será um guia para realizações dos exercícios.
+
+--------
+
+O objetivo será a criação de uma aplicação web. O projeto será o **Ng-Food**. 
+
+Ferramentas principais que utilizaremos: **Angular, Bootstrap e JSON server**.
+- Angular - framework javascript para construção da aplicação
+- Bootstrap - framework css para estilização da aplicação
+- JSON Server - para simular API REST (nosso backend fake)
+
+--------
+
+Basicamente trata-se de uma aplicação web, um cardápio online que tem objetivo de apresentar as opções disponíveis de um restaurante.
+
+**Lembram-se:** "Em cada etapa/exercício execute o projeto e verifique se tudo está funcionando corretamente, sem erros no console do navegador e do terminal onde foi executado o comando para subir a aplicação"
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Development server
@@ -26,20 +44,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-Fala Turma! 
-Leiam atentamente as informações deste card pois ele será um guia para realizações dos exercícios.
 
---------
-
-O objetivo será a criação de uma aplicação web. O projeto será o **Ng-Food**. 
-
-Ferramentas principais que utilizaremos: **Angular, Bootstrap e JSON server**.
-- Angular - framework javascript para construção da aplicação
-- Bootstrap - framework css para estilização da aplicação
-- JSON Server - para simular API REST (nosso backend fake)
-
---------
-
-Basicamente trata-se de uma aplicação web, um cardápio online que tem objetivo de apresentar as opções disponíveis de um restaurante.
-
-**Lembram-se:** "Em cada etapa/exercício execute o projeto e verifique se tudo está funcionando corretamente, sem erros no console do navegador e do terminal onde foi executado o comando para subir a aplicação"
