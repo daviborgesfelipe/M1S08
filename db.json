@@ -1,0 +1,104 @@
+{
+    "comidas": [
+        {
+            "id": 1,
+            "titulo": "Pizza 1",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Portuguesa",
+            "valor": 23
+        },
+        {
+            "id": 2,
+            "titulo": "Pizza 2",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Baiana",
+            "valor": 25
+        },
+        {
+            "id": 3,
+            "titulo": "Pizza 3",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Quatro queijos",
+            "valor": 24
+        },
+        {
+            "id": 4,
+            "titulo": "Pizza 4",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Calabresa",
+            "valor": 22
+        },
+        {
+            "id": 5,
+            "titulo": "Pizza 5",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Camarão",
+            "valor": 23
+        },
+        {
+            "id": 6,
+            "titulo": "Pizza 6",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "descricao": "Frango",
+            "valor": 20
+        }
+    ],
+    "bebidas": [
+        {
+            "id": 1,
+            "titulo": "Refrigerante 1",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Guarana",
+            "valor": 6
+        },
+        {
+            "id": 2,
+            "titulo": "Refrigerante 2",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Coca-cola",
+            "valor": 7
+        },
+        {
+            "id": 3,
+            "titulo": "Refrigerante 4",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Fanta",
+            "valor": 7
+        },
+        {
+            "id": 4,
+            "titulo": "Refrigerante 4",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Pureza",
+            "valor": 9
+        },
+        {
+            "id": 5,
+            "titulo": "Refrigerante 5",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Maxx",
+            "valor": 5
+        },
+        {
+            "id": 6,
+            "titulo": "Refrigerante 6",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "descricao": "Agua da Serra",
+            "valor": 5
+        }
+    ],
+    "cardapio": [
+        {
+            "id": 1,
+            "titulo": "Refrigerante",
+            "enderecoImagem": "/assets/img/refrigerante.png",
+            "path": "bebida"
+        },
+        {
+            "id": 2,
+            "titulo": "Pizza",
+            "enderecoImagem": "/assets/img/pizza.png",
+            "path": "comidas"
+        }
+    ]
+}

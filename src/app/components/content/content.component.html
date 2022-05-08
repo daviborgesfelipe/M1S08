@@ -1,0 +1,43 @@
+<main class="container mt-5">
+  <div class="row mb-2">
+    <div *ngFor="let menu of listaMenu" class="padraoCard col-md-6">
+      <div (click)="redirecionar(menu.path)" class=" padraoCard row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-3">{{menu.titulo}}</h3>
+          <p class="card-text mb-auto">Melhor preco desse site</p>
+          <a href="#" class="stretched-link" >Ver mais</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img height="200" width="200" class="img-fluid" src="{{menu.enderecoImagem}}" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="row mb-2">
+    <div class="padraoCard col-md-6">
+      <div class="padraoCard row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Comidas</h3>
+          <p class="card-text mb-auto">Não existe amor mais sincero do que aquele pela comida.</p>
+          <a href="#" class="stretched-link">Ver mais</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img height="200" width="200" class="img-fluid" src="/assets/img/Ilustração-Pizza-PNG-1024x1024.png" alt="imagem de uma pizza" />  
+        </div>
+      </div>
+    </div>
+    <div class="padraoCard col-md-6">
+      <div class="padraoCard row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0">Comidas</h3>
+          <p class="mb-auto">Não existe amor mais sincero do que aquele pela comida.</p>
+          <a href="#" class="stretched-link">Ver mais</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img height="200" width="200" class="img-fluid" src="/assets/img/Ilustração-Pizza-PNG-1024x1024.png" alt="imagem de uma pizza" />
+        </div>
+      </div>
+    </div>
+  </div> -->
+</main>
