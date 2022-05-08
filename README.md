@@ -1,6 +1,6 @@
 # NgFood
 
-##Fala Turma! 
+Fala Turma! 
 Leiam atentamente as informações deste card pois ele será um guia para realizações dos exercícios.
 
 --------
