@@ -1,4 +1,5 @@
 # NgFood
+https://daviborgesfelipe.github.io/M1S08/
 
 Fala Turma! 
 Leiam atentamente as informações deste card pois ele será um guia para realizações dos exercícios.
