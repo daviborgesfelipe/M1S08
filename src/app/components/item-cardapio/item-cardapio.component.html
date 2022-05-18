@@ -1,0 +1,20 @@
+<div class="col-md-6">
+    <div
+        class=" padraoCard row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-3">{{alimento?.titulo}}</h3>
+            <p class="card-text mb-auto">{{alimento?.descricao}} <br> Preço: R${{alimento?.valor}}</p>
+            <div class="col-auto d-flex justify-content-around mb-1">
+                <a class="row btn btn-primary nt-2" (click)="diminuirQuantidade()">Diminui</a>
+                <a class="row btn btn-primary nt-2">{{quantidade}}</a>
+                <a class="row btn btn-primary ml-2 nt-2" (click)="aumentarQuantidade()">Adiciona</a>
+            </div>
+            <a class="btn btn-primary nt-2 mb-1" (click)="adicionarItensAoPedido()">Adicionar Itens Selecionados</a>
+            <a class="btn btn-primary nt-2 mb-1" (click)="adicionarAoPedido()">Adicionar Uma Unidade</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+            <img height="200" width="200" class="img-fluid" src="{{alimento?.enderecoImagem}}" />
+        </div>
+    </div>
+</div>
+

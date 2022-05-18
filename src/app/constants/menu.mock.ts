@@ -5,7 +5,7 @@ export const LISTA_MENU_MOCK: IMenu[] = [
       id: 1,
       titulo: 'Refrigerante',
       enderecoImagem: '/assets/img/refrigerante.png',
-      path: 'bebida'
+      path: 'bebidas'
     },
     { 
       id: 2,

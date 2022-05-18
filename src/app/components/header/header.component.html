@@ -6,11 +6,18 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a routerLink="comidas" class="nav-link">Comidas</a></li>
-        <li class="nav-item"><a routerLink="bebidas" class="nav-link">Bebidas</a></li>
-        <li class="nav-item"><a routerLink="cardapio" class="nav-link">Cardápio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a routerLinkActive="active" routerLinkActive="active" routerLink=""[routerLinkActiveOptions]="{exact: true}" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a routerLinkActive="active" routerLink="comidas" class="nav-link">Comidas</a></li>
+        <li class="nav-item"><a routerLinkActive="active" routerLink="bebidas" class="nav-link">Bebidas</a></li>
+        <li class="nav-item"><a routerLinkActive="active" routerLink="cardapio" class="nav-link">Cardápio</a></li>
+        <li class="nav-item">
+          <a routerLinkActive="active" routerLink="pedidos" class="nav-link"> 
+            <span class="badge badge-pill btn btn-primary">
+              {{numeroQntdTotalItensPedido()}}
+            </span> 
+              Pedidos
+          </a>
+        </li>
       </ul>
     </header>
 </div>

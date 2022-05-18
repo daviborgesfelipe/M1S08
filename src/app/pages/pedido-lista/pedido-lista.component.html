@@ -1,0 +1,25 @@
+<main class="padraoCard container mt-5">
+    <div *ngIf="listaItensPedido.length === 0" class="d-flex justify-content-center col">
+        <p class="row">Não há pedido adicionados no momento</p>
+    </div>
+    <div *ngIf="listaItensPedido.length > 0" class="d-flex justify-content-center col mb-2">
+        <div class="col-2">
+            <a class="btn btn-primary my-2" (click)="removerTudo()">Remover</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="padraoCard col-md-6" *ngFor="let alimento of listaItensPedido">
+            <div
+                class=" padraoCard row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-3">{{alimento?.titulo}}</h3>
+                    <p class="card-text mb-auto">{{alimento?.descricao}} <br> Preço: R${{alimento?.valor}}</p>
+                    <a class="btn btn-primary nt-2" (click)="removerAlimento(alimento)">Remover</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img height="200" width="200" class="img-fluid" src="{{alimento?.enderecoImagem}}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -9,7 +9,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { BebidaListaComponent } from './pages/bebida-lista/bebida-lista.component';
 import { ComidaListaComponent } from './pages/comida-lista/comida-lista.component';
 import { HomeComponent } from './pages/home/home.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { ItemCardapioComponent } from './components/item-cardapio/item-cardapio.component';
+import { PedidoListaComponent } from './pages/pedido-lista/pedido-lista.component';
 
 const ROUTES: Route[] = [
   {
@@ -23,7 +25,11 @@ const ROUTES: Route[] = [
   {
     path: 'comidas',
     component: ComidaListaComponent
-  }
+  },
+  {
+    path: 'pedidos',
+    component: PedidoListaComponent
+  },
 ] 
 
 @NgModule({
@@ -34,12 +40,14 @@ const ROUTES: Route[] = [
     HeaderComponent,
     BebidaListaComponent,
     ComidaListaComponent,
-    HomeComponent
+    HomeComponent,
+    ItemCardapioComponent,
+    PedidoListaComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES),
-    //cuida das chamadas ajax, parecido com o fetch
+    //cuida das chamadas ajax, parecido com o fetch, fornece os metodos de busca, editar e pai bola coisa e tal
     HttpClientModule
 
   ],

@@ -6,7 +6,7 @@ export const LISTA_BEBIDAS_MOCK: IBebida[] = [
       titulo: 'Refrigerante 1',
       enderecoImagem: '/assets/img/refrigerante.png',
       descricao: 'Guarana',
-      valor: 23
+      valor: 6
     },
     { 
       id: 1,
